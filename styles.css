@@ -417,6 +417,7 @@ html, body{
         width: 450px;
         height: 450px;
     }
+    
     .about-us .about-text h2{
         padding-right: 4rem;
     }
@@ -515,9 +516,6 @@ html, body{
     }
 }
 @media(min-width: 1400px){
-    .about-us .about-images{
-        margin-left: -5rem;
-    }
     .bg-stats .download-text{
         padding-left: 8%;
     }
@@ -531,4 +529,9 @@ html, body{
         padding-left: 40%;
     }
     
+}
+@media(min-width:1600px){
+    .about-us .about-images{
+        margin-left: -5%;
+    }
 }
