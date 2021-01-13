@@ -229,6 +229,12 @@ html, body{
     font-family: 'Roboto', serif;
     font-size: 16px;
 }
+.application .app-container h2,
+.bg-stats .app-container h2{
+    font-family: 'Roboto', serif;
+    font-size: 40px;
+    color: black;
+}
 .contact .container .text-center h2{
     font-family: 'Roboto', serif;
     font-size: 40px;
@@ -449,6 +455,9 @@ html, body{
     }
     .header-bg .header-text p{
         width: 80%;
+    }
+    .header-bg .header-text h1{
+        font-size: 57px;
     }
     .mx-6{
         margin-right: 2rem;
