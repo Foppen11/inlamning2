@@ -85,6 +85,13 @@ html, body{
     background-repeat: no-repeat;
     background-position-x: center;
 }
+.mt-bg{
+    margin-top: 5rem;
+}
+.pt-bg{
+    padding-top: 3rem;
+}
+
 .application .app-container,
 .bg-stats .app-container{
     max-width: 80%;
@@ -257,14 +264,14 @@ html, body{
 /*! Buttons! */
 .header-bg .header-btn-1{
     background-color: #ffbb00;
-    padding: 0.2rem 1rem;
+    padding: 0.5rem 1rem;
     font-size: 14px;
     border: none !important; 
+    box-shadow: none;
     border-radius: 10px;
 }
 .header-bg .header-btn-1:hover,
-.header-bg .header-btn-1:enabled,
-.header-bg .header-btn:not(:disabled):not(.disabled):active:focus{
+.header-bg .header-btn-1:not(:disabled):not(.disabled):active:focus{
     box-shadow: 0 0 0 1px #fff;
     border: none !important; 
     background-color: #ffbb00;
@@ -463,6 +470,7 @@ html, body{
         margin-right: 2rem;
         margin-left: 1rem;
     }
+    
     .about-us .about-images{
         display: flex;
         margin-top: 2rem;
@@ -481,6 +489,9 @@ html, body{
     }
     .features .features-text p{
         font-size: 14px;
+    }
+    .mb-bg{
+        margin-bottom: 5rem;
     }
     .bg-stats .download{
         background: url('images/iphonegroup.png');
